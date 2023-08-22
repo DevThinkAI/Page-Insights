@@ -1,0 +1,5 @@
+# Even thought this product uses Poetry, Gradio requires a requirements.txt file.
+openai
+python-dotenv
+trafilatura
+gradio
