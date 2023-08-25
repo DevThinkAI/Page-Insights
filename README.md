@@ -1,27 +1,21 @@
 # Page Insights
 
 ## Summary
-This is an app with which you can experiment with LLM prompts and apply those prompts to the content of web pages.
+This is an app with which you can experiment with LLM prompts and apply those prompts to the content of web pages.  I build this as a proof of concept to help me learn to use Gradio.
 
 As an example, your prompt could instruct the LLM to simply summarize the content of a web page. For study purposes, you could author a prompt that derives a set of study questions for the specified page.
 
 This app is extremely versatile since you can construct any kind of prompt you want and apply it to the content of the specified page.
 
+If you're a developer keen on integrating generative AI into your applications, feel free to take this as a starting point and expand upon it. Additionally, subscribe to my [weekly newsletter](https://devthinkai.beehiiv.com/) for the latest tools and trends in generative AI—curated specifically to empower developers like you.
+
 ## Features
 
-**Utilize any prompt you have authored to analyze the content of any web page**
+- Analyze the content of a webpage (just supply the link)
+- Build your own catalog of prompts to use in page analysis
+- Save page insights for later viewing
 
-![The Page Insights main screen](docs/pg-insights.png)
-
----
-
-**Prompt management** Manage a catalog of LLM prompts to apply to the content of web pages.
-![Manage multiple prompts](docs/pi-prompts.png)
-
----
-
-**Save rendered page insights for later viewing**
-![View previous saved insights](docs/pi-insights-tab.png)
+<img alt="The Page Insights main screen" src="https://github.com/DevThinkAI/Page-Insights/blob/main/docs/pg-insights.png" width="600"/>
 
 ## Setup
 This is a Gradio app so running it locally is pretty straight forward
