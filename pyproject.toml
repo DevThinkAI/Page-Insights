@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "gradio-demo"
+name = "page-insights"
 version = "0.1.0"
 description = ""
-authors = ["Sam Keen <sam.sjk@gmail.com>"]
+authors = ["Sam Keen <sam@devthink.ai>"]
 readme = "README.md"
-packages = [{include = "gradio_demo"}]
+packages = [{include = "page_insights"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
